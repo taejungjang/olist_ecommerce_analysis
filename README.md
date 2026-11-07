@@ -154,7 +154,7 @@ ORDER BY Recency DESC, Frequency DESC, Monetary DESC;
 
 ## 10. 대시보드 시각화 (Tableau)
 
-![Tableau 대시보드](olist%EB%8C%80%EC%8B%9C%EB%B3%B4%EB%93%9C.png)
+![Tableau 대시보드](images/07_tableau_dashboard.png)
 
 Tableau를 Oracle에 연결해, 데이터가 바뀌면 수치가 실시간으로 반영되는 대시보드를 만들었습니다. (Tableau 파일: `olist대시보드.twbx`)
 - KPI: 분석 고객 수 93,104명, 재구매율 2.996%, 그룹0 고객 수 31,940명, 그룹0 매출 비중 61.58%
@@ -175,6 +175,13 @@ olist_ecommerce_analysis
 ├── olist대시보드.twbx         # Tableau 대시보드 파일
 ├── olist대시보드.png          # Tableau 대시보드 이미지
 ├── images/                   # README 이미지
+│   ├── 01_monthly_orders.png
+│   ├── 02_rfm_hist.png
+│   ├── 03_rfm_pairplot.png
+│   ├── 04_elbow.png
+│   ├── 05_cluster_3d.png
+│   ├── 06_group_ratio.png
+│   └── 07_tableau_dashboard.png
 ├── .gitignore
 └── README.md
 ```
